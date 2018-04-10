@@ -176,7 +176,7 @@ var routes_default = /*#__PURE__*/__webpack_require__.n(routes);
                 external__react__default.a.createElement(
                     'a',
                     { className: 'item' },
-                    '+'
+                    external__react__default.a.createElement(external__semantic_ui_react_["Button"], { basic: true, color: 'white', icon: 'plus' })
                 )
             )
         )

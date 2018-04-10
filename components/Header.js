@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu } from 'semantic-ui-react';
+import { Menu, Button } from 'semantic-ui-react';
 import { Link } from '../routes';
 
 export default () => {
@@ -13,7 +13,9 @@ export default () => {
                     <a className="item">Campaigns</a>
                 </Link>
                 <Link route="/campaigns/new">
-                    <a className="item">+</a>
+                    <a className="item">
+                        <Button basic color="white" icon="plus" />
+                    </a>
                 </Link>
             </Menu.Menu>
         </Menu>
